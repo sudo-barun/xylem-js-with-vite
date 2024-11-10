@@ -1,0 +1,54 @@
+:root {
+	font-family: system-ui, sans-serif;
+	line-height: 1.5;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	display: grid;
+	place-content: center;
+}
+
+h1 {
+	font-size: 3.2em;
+}
+
+code {
+	font-family: mono;
+	background-color: #f0f0f0;
+	padding: 2px 4px;
+	border-radius: 4px;
+}
+
+ul {
+	display: grid;
+	gap: 8px;
+}
+
+a.xylem-js {
+	padding: 4px;
+	background-image: linear-gradient(to right bottom, #f55, #55f);
+	background-clip: text;
+	color: transparent;
+	-webkit-text-stroke-color: transparent;
+	-webkit-text-stroke-width: 5px;
+	-webkit-text-fill-color: white;
+}
+
+a.vite {
+	padding: 4px;
+	background-image: linear-gradient(130deg,#54c8fa 30%,#be1cfa 70%);
+	background-clip: text;
+	color: transparent;
+	-webkit-text-stroke-color: transparent;
+	-webkit-text-stroke-width: 5px;
+	-webkit-text-fill-color: white;
+}
+
+#app-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem;
+	/* text-align: center; */
+}
