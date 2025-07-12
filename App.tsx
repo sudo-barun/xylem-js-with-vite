@@ -13,7 +13,12 @@ class App extends Component
 				<> 🤝 </>
 				<a href="https://vite.dev" target="_blank"
 					class="vite"
-				>Vite</a>
+				>
+					Vite
+					{} {}
+					<img src="assets/vite-logo.svg" alt="Vite Logo" width="410" height="404" class="vite-logo"
+					/>
+				</a>
 			</h1>
 			<p>Commands:</p>
 			<ul>

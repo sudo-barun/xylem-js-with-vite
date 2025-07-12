@@ -46,6 +46,10 @@ a.vite {
 	-webkit-text-fill-color: white;
 }
 
+.vite-logo {
+	width: 40px; height: auto; vertical-align: super;
+}
+
 #app-container {
 	max-width: 1200px;
 	margin: 0 auto;
