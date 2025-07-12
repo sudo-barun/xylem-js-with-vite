@@ -1,3 +1,5 @@
+import type { UserConfig } from 'vite';
+
 export default {
 	build: {
 		minify: false,
@@ -15,4 +17,4 @@ export default {
 			treeshake: false,
 		},
 	},
-};
+} satisfies UserConfig;
